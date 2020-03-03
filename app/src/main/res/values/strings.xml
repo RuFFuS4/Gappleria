@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gappleria</string>
+    <string name="imgLogo">Logo Aplicación</string>
+    <string name="btnPrincipal">Galería Fotos</string>
+</resources>
