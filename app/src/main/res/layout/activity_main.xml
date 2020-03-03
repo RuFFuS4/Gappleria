@@ -4,18 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/gappleria"
+    android:background="#000000"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnPrincipal"
-        android:layout_width="223dp"
-        android:layout_height="165dp"
-        android:text="@string/btnPrincipal"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/imgLogo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.823"
+        app:srcCompat="@drawable/gappleria" />
+
+    <Button
+        android:id="@+id/btnPrincipal"
+        android:layout_width="225dp"
+        android:layout_height="129dp"
+        android:background="@drawable/boton_personalizado"
+        android:fontFamily="@font/vinegar_stroke"
+        android:text="@string/btnPrincipal"
+        android:textColor="#FF9800"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901"
         tools:text="@string/btnPrincipal" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
